@@ -1,0 +1,96 @@
+@font-face {
+    font-family: inter;
+    src: url(assets/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    font-family: inter;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-size: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(17,17,17);
+    background: radial-gradient(circle, rgba(17,17,17,1) 0%, rgba(27,27,27,1) 50%, rgba(0,0,0,1) 100%); 
+}
+#main{
+    background-color: #1F2937 ;
+    width: 550px;
+    height:550px;
+    box-shadow: 10px 11px 18px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 11px 18px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 18px 3px rgba(0,0,0,0.75);
+}
+#genPassBtn{
+    background-color: #8B5CF6 ;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+.purple{
+    color: #8B5CF6;
+}
+.container{
+    margin: 20px 50px;
+}
+#icon1{
+    padding: 0px;
+    height: 40px;
+    font-size: 1rem;
+    vertical-align: middle;
+    color:#8B5CF6;
+    background-color: #8B5CF6;
+}
+.passwordHolder{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 45px;
+}
+.PW{
+    width: 45%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #3F516B;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.buttonHolder{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 80px;
+}
+.lengthDial{
+    color: white;
+    font-size: 3rem;
+    max-height: 60px;
+    display: flex;
+    align-self:flex-end;
+    gap: 10px;
+    position:relative;
+}
+.controls{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 3rem;
+    display:flex;
+    gap: 40px;
+    
+}
